@@ -1,0 +1,169 @@
+.cont {
+  display: flex;
+  margin-left: 25%;
+  margin-top: 4%;
+}
+.cont1 {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin-left: 2%;
+}
+.select {
+  width: 20%;
+  height: 35px;
+  margin-left: 20%;
+  margin-bottom: 3%;
+}
+.search {
+  width: 20%;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-left: 5%;
+}
+.plus {
+  width: 10%;
+  background-color: black;
+  color: white;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 90%;
+}
+.btn1 {
+  border: none;
+  background-color: white;
+  font-weight: 700;
+  background-color: rgb(210, 208, 208);
+}
+.btn2 {
+  border: none;
+  background-color: white;
+  font-weight: 700;
+  background-color: rgb(210, 208, 208);
+}
+.car {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+}
+.img {
+  width: 60px;
+  height: 60px;
+  margin-top: 2%;
+  border-radius: 50px;
+}
+.edit {
+  width: 50%;
+  background-color: lawngreen;
+  height: 30px;
+  color: black;
+  border-radius: 5px;
+  margin-bottom: 25%;
+  border: none;
+}
+.b1 {
+  width: 50%;
+  background-color: rgb(204, 204, 204);
+  padding: 20px;
+  border-radius: 5px;
+  margin-left: 20%;
+}
+.btn3 {
+  width: 10%;
+  height: 50px;
+  font-size: 40px;
+  border-radius: 50px;
+  position: relative;
+  right: 280px;
+  top: 65px;
+}
+.abi{
+  width: 50%;
+  margin-left: 25%;
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 10px;
+}
+.btn4 {
+  width: 10%;
+  height: 50px;
+  font-size: 40px;
+  border-radius: 50px;
+  position: relative;
+  left: 330px;
+  bottom: 300px;
+}
+
+.p1 {
+  width: 300px;
+  margin-left: 500px;
+  margin-left: 25%;
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 10px;
+}
+.container {
+  height: 400px;
+  margin: auto;
+  text-align: center;
+
+}
+.qwert{
+  width: 500px;
+  margin-left: 25%;
+  position: absolute;
+  background-color: white;
+}
+
+.container img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+}
+.container1 {
+  width: 100%;
+}
+.cont2 td {
+  display: block;
+}
+.box {
+  border: 1px solid black;
+}
+.box tr {
+  border: 1px solid black;
+  height: 80px;
+}
+.modalEdit input {
+  width: 90%;
+  height: 35px;
+  margin-bottom: 2%;
+}
+.modalEdit {
+  width: 40%;
+}
+.modalAdd input {
+  width: 90%;
+  height: 35px;
+  margin-bottom: 2%;
+}
+.modalAdd {
+  width: 40%;
+}
+.modalEdit button {
+  width: 20%;
+  height: 30px;
+  background-color: slategray;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.modalAdd button {
+  width: 20%;
+  height: 30px;
+  background-color: slategray;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}

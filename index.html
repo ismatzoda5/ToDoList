@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.4.2-web/css/all.css">
+</head>
+
+<body>
+    <h1>Members List</h1>
+    <h3>See information about all members</h3>
+    <button class="plus">ADD MEMBER</button>
+    <div class="divv">
+        <select class="select">
+            <optgroup>
+                <option value="all">All</option>
+                <option value="true">True</option>
+                <option value="false">False</option>
+            </optgroup>
+        </select>
+        <input type="search" placeholder="Search..." class="search">
+
+    </div>
+    <dialog class="modalEdit">
+        <form class="form1">
+            <input type="file" name="img"><br>
+            <input type="text" name="name"><br>
+            <input type="text" name="email"><br>
+            <input type="text" name="category"><br>
+            <input type="text" name="level"><br>
+            <input type="text" name="rate"><br>
+
+            <div class="div"></div>
+            <button>SAVE</button>
+        </form>
+    </dialog>
+    <dialog class="modalAdd">
+        <form class="form2">
+            <input type="file" name="img"><br>
+            <input type="text" name="name"><br>
+            <input type="text" name="email"><br>
+            <input type="text" name="category"><br>
+            <input type="text" name="level"><br>
+            <input type="text" name="rate"><br>
+
+
+
+            <button>save</button>
+        </form>
+    </dialog>
+
+    <table style="width: 80%; margin: auto;text-align: center;border-collapse: collapse;">
+        <thead style="border: 1px solid black;height: 50px;background-color: rgb(210, 208, 208);">
+            <tr>
+                <th><button class="btn1">Member</button></th>
+                <th><button class="btn2"> Function</button></th>
+                <th>Status</th>
+                <th>Employed</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody class="box"></tbody>
+    </table>
+    <h1 style="margin-left: 25%;">Что говорят наши cтуденты о наши курсах</h1>
+    <div class="container">
+            <div class="qwert">
+            <button class="btn3">-</button>
+            <p class="p1">Что говорят наши cтуденты о наши курсахЧто говорят наши cтуденты о наши курсахЧто говорят наши
+                cтуденты о наши курсах</p>
+            <img src="./1680603281_pushinka-top-p-avatarka-dlya-akkaunta-gugl-avatarka-krasi-41.jpg" alt="">
+            <h3>Ahmad</h3>
+            <p>C#:Manager</p>
+            <button class="btn4">+</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./main.js" type="module"></script>
+</body>
+
+</html>
